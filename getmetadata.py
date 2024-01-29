@@ -7,6 +7,11 @@ Project Repo = https://github.com/Shreyan1/WhisperMe
 WhisperMe
 '''
 
+# Example usage:
+# length, metadata = get_audio_metadata('path/to/your/audiofile.mp3')
+# print("Length in seconds:", length)
+# print("Metadata:", metadata)
+
 from pydub import AudioSegment
 from mutagen import File
 import os
@@ -40,9 +45,4 @@ def get_audio_metadata(file_path):
         metadata_str = ', '.join(metadata_items)
 
     return length_seconds, metadata_str.strip()
-
-# Example usage:
-# length, metadata = get_audio_metadata('path/to/your/audiofile.mp3')
-# print("Length in seconds:", length)
-# print("Metadata:", metadata)
 

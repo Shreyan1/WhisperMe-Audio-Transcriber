@@ -6,7 +6,7 @@ Built for the mission - "Accessible AI Education and Technology for all"
 Project Repo = https://github.com/Shreyan1/WhisperMe
 WhisperMe
 '''
-#Sample usage in your .py file- 
+#Sample usage in .py file- 
 # from audiorecorder import record_audio
 # record_audio()
 
@@ -64,11 +64,15 @@ def record_audio():
 
     recording_thread.join()
 
+    filename = None  # Initialize filename to None
     save = input("Do you want to save the recording? (yes/no): ").lower()
     if save == 'yes':
         filename = input("Save your audio file as: ") + ".wav"
         recorder.save_recording(filename)
+        print(f"Recording saved as {filename}")
     else:
         print("Recording discarded.")
 
     recorder.close()
+    return filename
+
