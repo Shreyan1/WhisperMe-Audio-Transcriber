@@ -15,9 +15,10 @@ WhisperMe
 import os
 import openai
 from apikey import APIKEY
-from getmetadata_old import get_audio_metadata
+from getmetadata import get_audio_metadata
 
 def transcribe_audio(audio_input):
+    
     openai.api_key = APIKEY
 
     try:
