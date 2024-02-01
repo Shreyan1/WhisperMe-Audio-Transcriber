@@ -1,3 +1,4 @@
 openai==0.28.0
 pydub==0.25.1
 mutagen==1.47.0
+pyaudio==0.2.14
