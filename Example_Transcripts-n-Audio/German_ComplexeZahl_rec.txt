@@ -1,0 +1,5 @@
+Audio Length: 26.006 seconds
+Metadata: album: Funktionentheorie, title: Komplexe Zahl, artist: Engelbert Niehaus, tracknumber: 9
+
+Transcript:
+Der bereits angesprochene Zusammenhang zwischen Trigonometrie und der Exponentialfunktion wird durch die Euler-Formel beschrieben, nämlich einer Zahl e hoch i t auf dem Einheitskreis, die die komplexe Darstellung hat cos t plus i mal sin t. In der reellen Analysis haben wir cos t und sin t als Komponenten des Vektors auf dem Einheitskreis betrachtet.
