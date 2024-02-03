@@ -3,9 +3,10 @@ Created by Shreyan Basu Ray [Github - https://github.com/Shreyan1] @2024
 Support me at - https://github.com/sponsors/Shreyan1
 
 Built for the mission - "Accessible AI Education and Technology for all"
-Project Repo = https://github.com/Shreyan1/WhisperMe
+Project Repo = https://github.com/Shreyan1/WhisperMe-Audio-Transcriber
 WhisperMe
 '''
+
 #Sample usage in .py file- 
 # from audiorecorder import record_audio
 # record_audio()
