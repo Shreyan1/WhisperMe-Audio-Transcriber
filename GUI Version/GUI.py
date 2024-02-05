@@ -88,7 +88,7 @@ def handle_recording_save():
         log.warning("Recording Discarded")
 
 def transcribe_now():
-    audio_file = filedialog.askopenfilename(title="Select Audio File", filetypes=[("Audio Files", "*flac *.wav *.mp3 *.ogg *.webm *.mpeg *.mpga *.mp4")])
+    audio_file = filedialog.askopenfilename(title="Select Audio File", filetypes=[("Audio Files", "*.flac *.wav *.mp3 *.ogg *.webm *.mpeg *.mpga *.mp4")])
     if audio_file:
         save_filename = filedialog.asksaveasfilename(title="Save Transcription As", defaultextension=".txt", filetypes=[("Text files", "*.txt")])
         if save_filename:
