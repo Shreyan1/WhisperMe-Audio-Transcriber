@@ -9,7 +9,7 @@ Designed with simplicity and efficiency in mind, WhisperMe aims to revolutionize
 If you like the project and the mission, do leave a Star ⭐ on this repository. And if you want to further support the cause, this is where you can truly do by donating any amount you wish, here - [Github Sponsors Link](https://github.com/sponsors/Shreyan1/).
 
 <p align="center">
-   <img src="https://github.com/Shreyan1/WhisperMe-Audio-Transcriber/blob/f976336968e9f968d2201065b3911ba8cb7f4558/WhisperMe%20Banner.png" width="700">
+   <img src="https://github.com/Shreyan1/WhisperMe-Audio-Transcriber/blob/67386668364c966fcb98ef2a4ba670e5176d608a/WhisperMe%20Banner.png" width="700">
 </p>
 
 
