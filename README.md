@@ -1,23 +1,19 @@
 <h1 align="center">
-   WhisperMe - The Ultimate OpenSource Audio Transcriber 🎙️
+   <img src="https://github.com/Shreyan1/WhisperMe-Audio-Transcriber/blob/dd34b39c8030003c5de798eeaee2ae921add5b2c/WhisperMe%20Banner.png" width="1010">
 </h1>
 
-Welcome to the WhisperMe Audio Transcriber, the ultimate audio transcription tool powered by OpenAI's Whisper API. 
+Welcome to the WhisperMe Audio Transcriber🎙️, the ultimate audio transcription tool powered by OpenAI's Whisper API built for the mission - "**Accessible AI Education and Technology for all**" ❤️🌏🫱🏽‍🫲🏼❤️
 
-Designed with simplicity and efficiency in mind, WhisperMe aims to revolutionize the way we transcribe audio by offering high-quality, accessible, and user-friendly transcription services, that can be integrated by anyone with the **Use-in-Code** Version or be used directly with the **GUI Version**.
+Designed with simplicity and efficiency in mind, WhisperMe aims to revolutionize the way we transcribe audio by offering atleast 98% accurate high-quality, accessible and user-friendly transcription services, that can be integrated by anyone, anywhere.
 
 If you like the project and the mission, do leave a Star ⭐ on this repository. And if you want to further support the cause, this is where you can truly do by donating any amount you wish, here - [Github Sponsors Link](https://github.com/sponsors/Shreyan1/).
-
-<p align="center">
-   <img src="https://github.com/Shreyan1/WhisperMe-Audio-Transcriber/blob/67386668364c966fcb98ef2a4ba670e5176d608a/WhisperMe%20Banner.png" width="700">
-</p>
-
 
 ## Features :
 
 - **High-Quality Transcription**: Leverages the cutting-edge Whisper API for accurate transcriptions. File formats supported are - `*.flac *.wav *.mp3 *.ogg *.webm *.mpeg *.mpga *.mp4`
 - **Live Recording Feature**: Includes a live recording feature with timer and saves the audio file as an uncompressed .wav file for the highest quality recording.
-- **Large File Handling**: Smartly splits large audio files into manageable chunks for transcription , ensuring efficient processing.
+- `New` **Extract Audio from Video Files/Youtube** : No more thinking about how to transcribe video files. With the packed audio extraction feature, you can now directly extract audio from any video file or `paste a link from Youtube` and hit **Transcribe Now**.
+- **Large File Handling**: Smartly splits large audio files into mana🫱🏽‍🫲🏼geable chunks for transcription , ensuring efficient processing.
 - **User-Friendly GUI**: Offers a straightforward and the most simple interface for hassle-free operation.
 - **Real-Time Logging**: Provides immediate feedback and status updates during transcription with logs for each operation.
 - **Simplest Export Option**: Easily save your transcripts in the most simplest and easy-to-use option with `.txt`
@@ -30,20 +26,25 @@ If you like the project and the mission, do leave a Star ⭐ on this repository.
 
 2. **Install Dependencies** : ` pip install -r requirements.txt `
 
-3. **Launch WhisperMe [on Linux and MacOS]** : `cd GUI Version` ; `./run_GUI.sh` on Linux or MacOS ; `.\myScript.bat` on Windows using Powershell
+3. **Launch WhisperMe [on Linux and MacOS]** : `./run.sh` on Linux or MacOS ; `.\run.bat` on Windows using Powershell
 
 
 ## Things to Know before your take-off : 🛫
 
 The ideal max audio file size is 25MB, so anything less than that will be completely fine, although larger file handling has been integrated in this code but still.
 
-This repository contains **2 versions** of the same code logic - 
-- **USE-in-CODE** : This version contains the code logic with all functionalities in a manner that can be re-used in your code by just basic integration and calling.
-- **GUI Version** :  This packs a graphical user interface designed using Tkinter library to use it across all platforms. This GUI version has 2 pairs of special .sh/.bat files namely - `clear_logs.sh/.bat` and `run_GUI.sh/.bat`.
+**Old Version :**
+This repository contained **2 versions** - 
+- **USE-in-CODE** : Has been depreciated
+- **GUI Version** : Has been renamed to **src/**
 
+**Latest Version :**
+   This repository now contains **1 version** of the source code - 
+- **src** :  This packs a graphical user interface designed using Tkinter library to use it across all platforms. This GUI repo has 2 pairs of special .sh/.bat files namely - `clear_logs.sh/.bat` and `run.sh/.bat`.
+  
 Let's understand what they do - 
 - **clear_logs.sh/.bat** : This handles the automatic deletion of all the log files inside the log folder in a second, which could otherwise take a long time when multiple logs have been generated and have caused an overpopulation inside the folder resulting into a disk space issue.
-- **run_GUI.sh/.bat** : This performs the direct execution of the GUI.py file without manually opening it and executing it through an editor/terminal, thus giving a software like UX while interacting with the GUI.
+- **run.sh/.bat** : This performs the direct execution of the GUI.py file without manually opening it and executing it through an editor/terminal, thus giving a software like UX while interacting with the GUI.
 
 There is also a folder with Example Transcripts generated using this repo code by transcribing multilingual audio files for - `Chinese, English, French, German, Hindi, Italian, Japanese, Korean, Russian, Spanish, Tamil`
 
@@ -51,18 +52,30 @@ Check out the folder to view the power of the Whisper Model.
 
 ## Usage : 💽
 
-1. **Start WhisperMe**: Run the `run_GUI.sh` script to launch the application.
+1. **Start WhisperMe**: Run the `run.sh` script to launch the application.
+      ![image](https://github.com/Shreyan1/WhisperMe-Audio-Transcriber/assets/41754832/6d853fd2-33d3-4880-ad1a-e92a0c6a2656)
+
 2. **Record Live/ Select Audio File**: Click on `Start Recording` to record live and save it as a .wav file or `Transcribe Now` to select the audio file you wish to transcribe.
-3. **Transcription**: Wait for the transcription to complete. A "Please wait" message will display during this process.
-4. **Save Transcript**: Once transcription is complete, choose where to save your transcript file.
+
+      ![image](https://github.com/Shreyan1/WhisperMe-Audio-Transcriber/assets/41754832/f9848da4-6961-4f98-8a84-648c26907445)
+
+3. **Extract Audio**: Click on `Extract Audio` button to extract any audio file directly by **pasting a link from Youtube** or by choosing a video file from your folders. Supported files are - `*.mp4`, `*.mkv`, `*.avi`
+
+      ![image](https://github.com/Shreyan1/WhisperMe-Audio-Transcriber/assets/41754832/afb0fbdc-a94a-458b-b7ea-a53de5dde4ef)
+
+4. **Transcription**: Wait for the transcription to complete. A "Please wait" message will display during this process.
+
+      ![image](https://github.com/Shreyan1/WhisperMe-Audio-Transcriber/assets/41754832/109afb46-d196-425b-9bfd-bcdf61bf33f3)
+
+5. **Save Transcript**: Once transcription is complete, choose where to save your transcript file.
 
 ## Service Usage : 🛎️
 You can access and use it all you want but there are 3 options to access the core service - 
-1. **The Flash way** : If you already have an OpenAI API Subscription, then just include your api inside the apikey.py file inside the variable `APIKEY=` or,
+1. **The Flash way**⚡: If you already have an OpenAI API Subscription, then just include your api inside the apikey.py file inside the variable `APIKEY=` or,
    
-2. **The Quicksilver Way** : Mail in the audio file directly at my mailing address - [shreyan.github@gmail.com](shreyan.github@gmail.com) and let me know if you need _any thing specific_ and _by how many days_. I'll mail you the price depending on the length of the audio. It'll typically be starting from $0.50 / ₹29.00 for any audio file less than 20 minutes.
+2. **The Quicksilver Way**🏃🏻‍♂️ : Mail in the audio file directly at my mailing address - [shreyan.github@gmail.com](shreyan.github@gmail.com) and let me know if you need _any thing specific_ and _by how many days_. I'll mail you the price depending on the length of the audio. It'll typically be starting from $0.50 / ₹29.00 for any audio file less than 20 minutes.
    
-3. **The Sonic-the-Hedgehog Way**: Subscription for one time usage-
+3. **The Sonic-the-Hedgehog Way**🦔: Subscription for one time usage-
    - $0.99 /₹49.00 for 3 hours of WhisperMe Usage.
    - $1.95 /₹95.00 for 6 hours of usage.
    - $2.90 /₹125.00 for 9 hours of usage.
@@ -106,4 +119,8 @@ Let us connect together at -
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/X_logo_2023.svg" alt="Twitter" width="35" height="35"/>
   </a>
 </h2>
+
+<h1 align="center">
+   <img src="https://github.com/Shreyan1/WhisperMe-Audio-Transcriber/blob/dd34b39c8030003c5de798eeaee2ae921add5b2c/WhisperMe%20Banner.png" width="850">
+</h1>
 <br>
