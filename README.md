@@ -26,7 +26,9 @@ If you like the project and the mission, do leave a Star ⭐ on this repository.
 
 2. **Install Dependencies** : ` pip install -r requirements.txt `
 
-3. **Launch WhisperMe [on Linux and MacOS]** : `./run.sh` on Linux or MacOS ; `.\run.bat` on Windows using Powershell
+3. **Add the API key** : Add your OpenAI developer API key to `apikey.py`
+   
+5. **Launch WhisperMe [on Linux and MacOS]** : `./run.sh` on Linux or MacOS ; `.\run.bat` on Windows using Powershell
 
 
 ## Things to Know before your take-off : 🛫
